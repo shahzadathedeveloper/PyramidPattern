@@ -107,29 +107,33 @@
         {
             //Program program = new Program();
             //program.PyramidPattern();
-            Search search = new Search();
+            //Search search = new Search();
             //string msg = search.SearchElement(5);
             //Console.WriteLine(msg);
-            LinkListDemo<int> linkListDemo = new LinkListDemo<int>();
-            linkListDemo.AddNode(5);
-            linkListDemo.AddNode(2);
-            linkListDemo.AddNode(7);
-            linkListDemo.PrintAllNode();
-            Console.WriteLine("");
-            linkListDemo.AddLast(1);
-            linkListDemo.PrintAllNode();
-            Console.WriteLine("");
-            linkListDemo.AddNode(18);
-            linkListDemo.PrintAllNode();
-            Console.WriteLine("String linked list");
-            LinkListDemo<string> stringLinkList = new LinkListDemo<string>();
-            stringLinkList.AddNode("Shahzad");
-            stringLinkList.AddNode("Shahzad");
-            stringLinkList.PrintAllNode();
-            Console.WriteLine();
-            stringLinkList.AddLast("Maryam");
-            stringLinkList.PrintAllNode();
-            Console.WriteLine();
+            //LinkListDemo<int> linkListDemo = new LinkListDemo<int>();
+            //linkListDemo.AddNode(5);
+            //linkListDemo.AddNode(2);
+            //linkListDemo.AddNode(7);
+            //linkListDemo.PrintAllNode();
+            //Console.WriteLine("");
+            //linkListDemo.AddLast(1);
+            //linkListDemo.PrintAllNode();
+            //Console.WriteLine("");
+            //linkListDemo.AddNode(18);
+            //linkListDemo.PrintAllNode();
+            //Console.WriteLine("String linked list");
+            //LinkListDemo<string> stringLinkList = new LinkListDemo<string>();
+            //stringLinkList.AddNode("Shahzad");
+            //stringLinkList.AddNode("Shahzad");
+            //stringLinkList.PrintAllNode();
+            //Console.WriteLine();
+            //stringLinkList.AddLast("Maryam");
+            //stringLinkList.PrintAllNode();
+            //Console.WriteLine();
+
+            ArrayPractice arrayPractice = new ArrayPractice();
+            arrayPractice.ReverArrayOrder();
+
             Console.ReadLine();
         }
     }
