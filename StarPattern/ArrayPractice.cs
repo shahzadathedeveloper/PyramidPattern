@@ -34,14 +34,15 @@ namespace StarPattern
                         numbers[i] = temp;
                     }
 
-                Console.Write($"{numbers[i]} ");
+                    Console.Write($"{numbers[i]} ");
+                }
+                //logic to print sorted array
+                //for (int i = 0; i < sortednumber.Length; i++)
+                //{
+                //    Console.Write($"{sortednumber[i]} ");
+                //}
+                Console.WriteLine();
             }
-            //logic to print sorted array
-            //for (int i = 0; i < sortednumber.Length; i++)
-            //{
-            //    Console.Write($"{sortednumber[i]} ");
-            //}
-            Console.WriteLine();
         }
     }
 }

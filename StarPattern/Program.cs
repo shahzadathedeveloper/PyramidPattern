@@ -12,6 +12,14 @@
             int n = 5;
 
             //Right Half pyramid
+            /*
+                *
+                * *
+                * * *
+                * * * *
+                * * * * *
+                * * * * * *
+             */
             Console.WriteLine("------------------Right Half Pyramid Pattern----------------------------");
             for (int i = 0; i <= n; i++)
             {
@@ -21,8 +29,16 @@
                 }
                 Console.WriteLine();
             }
-
+            
             Console.WriteLine("---------------------Inverted Right Half Pyramid Pattern-------------------------");
+            /*
+                * * * * * *
+                * * * * *
+                * * * *
+                * * *
+                * *
+                *
+             */
 
             for (int i = 0; i <= n; i++)
             {
@@ -34,7 +50,19 @@
             }
 
             Console.WriteLine("--------------------Left Half Pyramid Pattern--------------------------");
-
+            /*
+                                   *
+                                 * *
+                               * * *
+                             * * * *
+                           * * * * *
+                         * * * * * *
+                       * * * * * * *
+                     * * * * * * * *
+                   * * * * * * * * *
+                 * * * * * * * * * *
+                * * * * * * * * * * *
+             */
             n = 10;
             for (int i = 0; i <= n; i++)
             {
@@ -51,6 +79,18 @@
             }
 
             Console.WriteLine("---------------------Inverted Left Half Pyramid Pattern-------------------------");
+            /*
+                    * * * * * * * * * *
+                       * * * * * * * * *
+                         * * * * * * * *
+                           * * * * * * *
+                             * * * * * *
+                               * * * * *
+                                 * * * *
+                                   * * *
+                                     * *
+                                       *
+             */
             // first loop for printing all rows 
             for (int i = 0; i < n; i++)
             {
@@ -105,8 +145,8 @@
         }
         static void Main(string[] args)
         {
-            //Program program = new Program();
-            //program.PyramidPattern();
+            Program program = new Program();
+            program.PyramidPattern();
             //Search search = new Search();
             //string msg = search.SearchElement(5);
             //Console.WriteLine(msg);
